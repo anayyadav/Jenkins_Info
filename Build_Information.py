@@ -26,8 +26,8 @@ def parseData(build_info):
        
 
 # connecting to the jenkins
-server = jenkins.Jenkins('http://35.203.145.85:8080', username='anay', password='anay')
-jenkins_server = Jenkins('http://35.203.145.85:8080', username='anay', password='anay')
+server = jenkins.Jenkins('http://localhost:8080', username='anay', password='anay')
+jenkins_server = Jenkins('http://localhost:8080', username='anay', password='anay')
 # user information
 user = server.get_whoami()
 version = server.get_version()
