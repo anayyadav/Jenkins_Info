@@ -24,7 +24,6 @@ def parseData(build_info):
     return new_data   
         
        
-
 # connecting to the jenkins
 server = jenkins.Jenkins('http://localhost:8080', username='anay', password='anay')
 jenkins_server = Jenkins('http://localhost:8080', username='anay', password='anay')
